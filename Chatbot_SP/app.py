@@ -10,10 +10,10 @@ client = OpenAI(
 )
 
 st.set_page_config(page_title="SP Chatbot", page_icon="🤖")
-st.title("Oasis Chatbot")
+st.title("Chinmay Chatbot")
 
 if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "system", "content": "You are a helpful assistant."}]
+    st.session_state.messages = [{"role": "system", "content": "An oasis in the sea !!! lol ;>"}]
 
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
